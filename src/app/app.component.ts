@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'GitTracker';
+  users: string[];
+
+  constructor(){
+    this.users = ["Kelvin Wahome"]
+  }
 }
