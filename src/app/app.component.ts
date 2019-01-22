@@ -6,9 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  users: string[];
-
-  constructor(){
-    this.users = ["Kelvin Wahome"]
-  }
+  users = [
+    new User(1,'Kelvin Wahome'),
+  ]
 }
