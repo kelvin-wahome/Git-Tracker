@@ -10,8 +10,6 @@ import { RepositoryComponent } from './repository/repository.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GithubComponent,
-    UserFormComponent,
     UserComponent,
     RepositoryComponent
   ],
