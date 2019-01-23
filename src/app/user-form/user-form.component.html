@@ -1,3 +1,21 @@
-<p>
-  user-form works!
-</p>
+<div class="container">
+  <div class="col-md-6">
+    <h1>Search user </h1>
+    <form >
+      <div class="form-group">
+        <label for="name">User Name:</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="userName" name="name" #name="ngModel" required>
+        <div [hidden]="name.valid || name.prestine" class1="alert alert-danger">
+          <p>Username is required!!</p>
+        </div>
+
+      </div>
+
+    </form>
+
+    <button type="Submit" class="btn btn-success btn-lg" (click)=showUser() [disabled]="userName==''">SEARCH</button>
+
+
+  </div>
+
+</div>
