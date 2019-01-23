@@ -1,27 +1,54 @@
-# GitTracker
+# GITHUB-SEARCH
+#### A website where you can find all my github information. You can search for a github user and a github repository, 20/01/2019.
+#### By **KELVIN WAHOME**
+## Description
+This application is developed for you to get my github information. You can search for a github user by typing it's name in the given search field or you can also search for a repository. It includes a button that shows repositories of a particular user when pressed.
+## Setup/Installation Requirements
+*Web Browser*
+## Specifications
+### The website:
+1. displays github info of a user when user name is entered
+   - INPUT:"user name entered"
+   - OUTPUT:Github information of a user
+2. displays all repositories of a user when show repositories button is pressed
+   - INPUT:"Show repositories button pressed
+   - OUTPUT:"All Github repositories of a user appear"
+3. displays an error message if you leave the name input field blank
+   - INPUT:" "
+   - OUTPUT:"Name is required"
+4. displays an error message if you leave the repo name input field blank
+   - INPUT:" "
+   - OUTPUT:"Repo Name is required"
+5. displays an error message if the user name entered couldn't be found
+   - INPUT:"name "
+   - OUTPUT:"User with this name doesnot exist"
+6. displays an error message if the repo name entered couldn't be found
+   - INPUT:"repo name"
+   - OUTPUT:"Repository of this name doesn't exist"
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+### Development
+Want to contribute? Great!
 
-## Development server
+To fix a bug or enhance an existing module, follow these steps:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+## Known Bugs
+There are no known bugs
+## Technologies Used
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+- [Bootstrap library](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp) - Bootstrap is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. It also gives you the ability to easily create responsive designs
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Link to my live site on GitHub Pages
+- [Quotes](https://anumasif.github.io/GitHub-Search/)
+## Support and contact details
+Please feel free to contact me if you have any suggestion for me to improve this website.
+- Email: wahomekelving@gmail.com
+### License
+*MIT*
+Copyright (c) 2018 **KELVIN WAHOME**

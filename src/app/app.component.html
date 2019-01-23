@@ -1,6 +1,13 @@
-<h1>GITTRACKER!</h1>
-<hr>
-<ul>
-  <li *ngFor='let user of users'>{{user.name}}</li>
-</ul>
-<router-outlet></router-outlet>
+<div class="container" id="first">
+  <div class="jumbotron">
+    <h1>GITTRACKER!</h1>
+  </div>
+
+
+  <hr>
+  <nav>
+    <div class="link"><a routerLink="/user-form" routerLinkActive="active">SEARCH USER</a></div>
+    <div class="link"><a routerLink="/repository" routerLinkActive="active">SEARCH REPO</a></div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
