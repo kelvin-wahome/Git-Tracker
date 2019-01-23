@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
-import {InfoRequestService} from '../info.service';
+import {InfoService} from '../info.service';
 
 import {Repository} from '../repository';
 
