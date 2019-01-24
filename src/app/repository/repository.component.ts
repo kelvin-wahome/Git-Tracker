@@ -15,7 +15,7 @@ export class RepositoryComponent implements OnInit {
   repositories:Repository[]=[];
   show=false;
   showRepository(){
-    this.show=true;
+    this.show=false;
     this.infoService.repoNameRequest(this.repoName);
     this.repositories=this.infoService.repositories;
   }

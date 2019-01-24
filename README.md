@@ -26,18 +26,7 @@ This application is developed for you to get my github information. You can sear
    - INPUT:"repo name"
    - OUTPUT:"Repository of this name doesn't exist"
 
-### Development
-Want to contribute? Great!
 
-To fix a bug or enhance an existing module, follow these steps:
-
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request
 ## Known Bugs
 There are no known bugs
 ## Technologies Used
@@ -45,7 +34,7 @@ There are no known bugs
 - [Bootstrap library](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp) - Bootstrap is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. It also gives you the ability to easily create responsive designs
 
 ## Link to my live site on GitHub Pages
-- [Quotes](https://anumasif.github.io/GitHub-Search/)
+- [Git-Tracker] https://kelvin-wahome.github.io/Git-Tracker/
 ## Support and contact details
 Please feel free to contact me if you have any suggestion for me to improve this website.
 - Email: wahomekelving@gmail.com
